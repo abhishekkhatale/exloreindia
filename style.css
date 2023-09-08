@@ -1,0 +1,310 @@
+ .social{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #6E3F31 ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    }
+    .aboutcontact{
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        width: 100%;
+        background-color: #2E1F1E;
+       
+        
+    
+       
+    }
+    .h1n{
+        font-size: 30px;
+        color: white;
+        font-family: 'Cinzel', serif;
+        margin-top: 3px;
+    }
+    .statecard{
+        height: 350px;
+        width: 400px;
+        border: solid 1px rgb(255, 254, 254);
+        background-color: white;
+        box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.452);
+        border-radius: 10px;
+        overflow: hidden;
+        
+       
+    }
+    .statecardbody{
+        height: 350px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        right: 0;
+        bottom: -100%;
+        position: absolute;
+        background: #2e1f1e;
+        border-radius: 10px;
+        margin-top: 270px;
+        margin-right: 890px;
+        backdrop-filter: blur(3px);
+        transition: 0.5s;
+        
+    }
+    .stateinfo{
+        font-size: 16px;
+        line-height: 25px;
+        margin: 40px 0;
+        font-weight: 300;
+        color: white;
+        padding: 30px;
+    }
+    .statecard:hover .statecardbody{
+        bottom: 0%;
+    }
+    .utcard{
+        height: 350px;
+        width: 400px;
+        border: solid 1px rgb(255, 254, 254);
+        background-color: white;
+        box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.452);
+        border-radius: 10px;
+        overflow: hidden;
+       
+    }
+    .utcardbody{
+        height: 350px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        right: 0;
+        bottom: -100%;
+        position: absolute;
+        background: #2e1f1e;
+        border-radius: 10px;
+        margin-top: 270px;
+        margin-right: 230px;
+        backdrop-filter: blur(3px);
+        transition: 0.5s;
+    }
+    .utinfo{
+        font-size: 16px;
+        line-height: 25px;
+        margin: 40px 0;
+        font-weight: 300;
+        color: white;
+        padding: 30px;
+    }
+    .utcard:hover .utcardbody{
+        bottom: 0%;
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 60PX;
+        margin-bottom: 10%;
+        padding-left: 100px;
+        padding-right: 100px;
+     
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-family: sans-serif;
+        background-color:#EADDC0  ;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 5px;
+    }
+    .logodiv{
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+      
+        margin-top: auto;
+       
+    }
+    img{
+        height: 30px;
+        width:30px ;
+        margin-left: 10px;
+        margin-right: 15px;
+        margin-top: 0px;
+    }
+    .na :hover{
+        transform: scale(1.2);
+        transition-delay: 0.3m ease;
+    }
+    .imgf{
+        height: 20px;
+        width:20px ;
+       
+    }
+    .navdiv{
+        display: flex;
+        margin: auto;
+        margin-left: 72%;
+    }
+    .ei{
+        color: #C1A57E ;
+        font-size: 50px;
+        font-family: 'Cinzel', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 0%;
+       
+    }
+    
+    .navdiv2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navdivimg{
+        height: 100px;
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .sut{
+        height: 280px;
+        width: 380px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        list-style-type: none;
+        margin-right: 35px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .state{
+     margin-left: 150px;
+     font-family: 'Cinzel', serif;
+     color: #2E1F1E;
+     padding-bottom: 20px;
+    }
+    .uts{
+        margin-left: 90px;
+        font-family: 'Cinzel', serif;
+        color: #2E1F1E;
+        padding-bottom: 20px;
+    }
+    li{
+        color: white;
+    }
+    ul :hover{
+        color: #C1A57E;
+        transform: scale(1.1);
+        transition-delay: 0.3s ease;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ull{
+	list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+	background-color: #2E1F1E;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #C1A57E;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+   
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    padding-top: 5px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
