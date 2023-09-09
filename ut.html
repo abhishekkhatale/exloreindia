@@ -3,16 +3,358 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="ut.css">
+    <title>UT'S</title>
+     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    body{
+ background-color: #EADDC0;
+
+
+
+    }
+     
+     input{
+        height: 30px;
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 75%;
+        padding-left: 10px;
+        border-radius: 10px 10px 10px 10px ;
+        border: none;
+        outline: none;
+        
+     }
+     .section1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-bottom: 100px;
+     }
+     .section2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding-bottom: 100px;
+     }
+     .div1{
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px 20px 20px 20px;
+        overflow-y: auto;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.452);
+     }
+     .div2{
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px 20px 20px 20px;
+        overflow-y: auto;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.452);
+     }
+     .div3{
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px 20px 20px 20px;
+        overflow-y: auto;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.452);
+     }
+    
+    
+    .imgs{
+        height: 350px;
+        width: 250px;
+        border-radius: 20px 20px 20px 20px;
+        margin-left: 25px;
+        margin-top: 25px;
+        opacity: 1;
+    }
+    .cardbody{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        position: absolute;
+        background: rgba(59, 59, 59, 0.815);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.5s;
+        color: white;
+    }
+    h1{
+       padding-left: 30px;
+       margin-top: 50px;
+       margin-bottom: 0%;
+    }
+    p{
+        margin-top: 0%;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 13px;
+    }
+    .div1:hover .cardbody{
+        right: 0;
+    }
+    .div2:hover .cardbody{
+        right: 0;
+    }
+    .div3:hover .cardbody{
+        right: 0;
+    }
+
+    .social{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+   
+    background-color: #6E3F31 ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.645);
+   padding: 10px;
+   padding-right: 50px;
+    
+    }
+    .h1n{
+        font-size: 30px;
+        color: white;
+        font-family: 'Cinzel', serif;
+        margin-top: 2px;
+    }
+    .logodiv{
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        
+       
+    }
+    .navdiv{
+        display: flex;
+        margin-top: 0px;
+       
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        padding-bottom: 5px;
+        padding-top: 0%;
+    }
+    .na{
+        height: 30px;
+        width:30px ;
+       margin-top: 7px;
+       margin-bottom: 20px;
+       margin-left: 20px
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ull{
+	list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+	background-color: #2E1F1E;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #C1A57E;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+   
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    padding-top: 5px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}}
+.imgf{
+        height: 30px;
+        width:30px ;
+      
+    }
+    .title{
+height: fit-content;
+width: fit-content ;
+font-family: 'Cinzel', serif;
+margin: auto;
+margin-bottom: 0%;
+margin-top:3%;
+font-size: 50px;
+color: #351b12 ;
+    }
+     </style>
 </head>
 <body>
-    <h1>ut</h1>
-    <section>
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+    <nav class="social">
+        <div class="logodiv">
+            <img src="/assets/images/S.png" alt="" class="logo">
+            <h1 class="h1n">ALMIGHTY</h1>
+        </div>
+       
+      <div class="navdiv">
+        
+            <a  href="index.html"><img class="na" src="/assets/images/home.png" alt=""></a>
+       
+       
+            <a  href="https://www.instagram.com/"><img class="na"  src="/assets/images/instagram.png" alt=""></a>
+       
+        
+            <a   href="https://www.youtube.com/"><img class="na" src="/assets/images/youtube.png" alt=""></a>
+     
+      </div>
+    </nav>
+
+    <h1 class="title">EXPLORE UT'S</h1>
+
+    <section class="section1">
+        <a href="#"> <div class="div1">
+            <img class="imgs" src="/assets/images/laksh.jpg" alt="">
+            <div class="cardbody">
+                <h1>LAKSHADWEEP</h1>
+                <p>Lakshadweep is an Indian union territory comprising coral atolls and islands in the Arabian Sea. Known for its stunning coral reefs, clear waters, and serene beaches, it's a secluded paradise for nature enthusiasts and water sports enthusiasts.</p>
+            </div>
+        </div></a>
+        <div class="div2">
+           <img class="imgs"  src="/assets/images/delhi.jpg" alt="">
+            <div class="cardbody">
+                <h1>DELHI</h1>
+                <p>Delhi, India's capital, is a bustling metropolis rich in history and culture. It features historic landmarks like the Red Fort, Qutub Minar, and modern attractions such as shopping malls and vibrant street markets.</p>
+            </div>
+        </div>
+        <div class="div3">
+            <img class="imgs"  src="/assets/images/and.jpg" alt="">
+            <div class="cardbody">
+                <h1>ANDAMAN</h1>
+                <p>Andaman and Nicobar Islands, located in the Bay of Bengal, are an Indian archipelago known for pristine beaches, lush rainforests, and diverse marine life. It's a popular tourist destination.</p>
+            </div>
+      
+        </div>
+        
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul class="ull">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="reg.html">LOGIN</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>EXPLORE</h4>
+                    <ul class="ull">
+                        <li><a href="states.html">STATES</a></li>
+                        <li><a href="ut.html">UNION TERITORIES</a></li>
+                    </ul>
+                </div>
+               
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook-f"><img class="imgf" src="/assets/images/f.png" alt=""></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-twitter"><img class="imgf" src="/assets/images/i.png" alt=""></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-instagram"><img class="imgf" src="/assets/images/t.png" alt=""></i></a>
+                        <a href="https://interest.com/"><i class="fab fa-linkedin-in"><img  class="imgf"  src="/assets/images/p.png" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+   
+   
 </body>
 </html>
